@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA899FFB-6D82-4368-8957-68BEBBF479C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogicModel\Article.cs" />
+    <Compile Include="LogicModel\ArticleReply.cs" />
+    <Compile Include="LogicModel\Category.cs" />
+    <Compile Include="LogicModel\CommonAddres.cs" />
+    <Compile Include="LogicModel\Complaint.cs" />
+    <Compile Include="LogicModel\ComplaintAttachment.cs" />
+    <Compile Include="LogicModel\Customer.cs" />
+    <Compile Include="LogicModel\Expresse.cs" />
+    <Compile Include="LogicModel\Favorite.cs" />
+    <Compile Include="LogicModel\LotteryActive.cs" />
+    <Compile Include="LogicModel\LotteryDraw.cs" />
+    <Compile Include="LogicModel\Message.cs" />
+    <Compile Include="LogicModel\Order.cs" />
+    <Compile Include="LogicModel\OrderItem.cs" />
+    <Compile Include="LogicModel\Payment.cs" />
+    <Compile Include="LogicModel\Prize.cs" />
+    <Compile Include="LogicModel\Product.cs" />
+    <Compile Include="LogicModel\ProductComment.cs" />
+    <Compile Include="LogicModel\ProductCommentImage.cs" />
+    <Compile Include="LogicModel\ProductImage.cs" />
+    <Compile Include="LogicModel\ProductRequestion.cs" />
+    <Compile Include="LogicModel\Promotion.cs" />
+    <Compile Include="LogicModel\SecurityQuestion.cs" />
+    <Compile Include="LogicModel\Shop.cs" />
+    <Compile Include="LogicModel\Supply.cs" />
+    <Compile Include="LogicModel\UserInfo.cs" />
+    <Compile Include="LogicModel\UserPointActive.cs" />
+    <Compile Include="LogicModel\Verification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
