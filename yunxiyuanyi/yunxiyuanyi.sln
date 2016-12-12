@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILogic", "ILogic\ILogic.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A2A25E8D-0190-4D66-9796-AFC0B360C717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseTests", "DataBaseTests\DataBaseTests.csproj", "{DCC502DA-D3FC-4918-9658-16E1ADC25095}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A2A25E8D-0190-4D66-9796-AFC0B360C717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2A25E8D-0190-4D66-9796-AFC0B360C717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2A25E8D-0190-4D66-9796-AFC0B360C717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

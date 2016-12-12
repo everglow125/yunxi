@@ -32,7 +32,7 @@ namespace ILogic
         /// <summary>
         /// 根据条件返回指定页的数据
         /// </summary>
-        IList<T> GetList(T t, out int recordCount, int? pageIndex = null, int? pageSize = null);
+        IList<T> GetList(T t, out int recordCount);
 
         /// <summary>
         /// 根据ID查询单条数据

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseModel.cs" />
     <Compile Include="LogicModel\Article.cs" />
     <Compile Include="LogicModel\ArticleReply.cs" />
     <Compile Include="LogicModel\Category.cs" />
@@ -66,7 +67,7 @@
     <Compile Include="LogicModel\SecurityQuestion.cs" />
     <Compile Include="LogicModel\Shop.cs" />
     <Compile Include="LogicModel\Supply.cs" />
-    <Compile Include="LogicModel\UserInfo.cs" />
+    <Compile Include="LogicModel\User.cs" />
     <Compile Include="LogicModel\UserPointActive.cs" />
     <Compile Include="LogicModel\Verification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +75,12 @@
   <ItemGroup>
     <Folder Include="Enums\" />
     <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{A2A25E8D-0190-4D66-9796-AFC0B360C717}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

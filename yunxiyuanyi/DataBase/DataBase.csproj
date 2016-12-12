@@ -40,12 +40,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArticleDal.cs" />
+    <Compile Include="ArticleReplyDal.cs" />
+    <Compile Include="BaseDal.cs" />
+    <Compile Include="CategoryDal.cs" />
+    <Compile Include="CommonAddresDal.cs" />
+    <Compile Include="ComplaintAttachmentDal.cs" />
+    <Compile Include="ComplaintDal.cs" />
+    <Compile Include="CustomerDal.cs" />
+    <Compile Include="ExpresseDal.cs" />
+    <Compile Include="FavoriteDal.cs" />
+    <Compile Include="LotteryActiveDal.cs" />
+    <Compile Include="LotteryDrawDal.cs" />
+    <Compile Include="MessageDal.cs" />
+    <Compile Include="OrderDal.cs" />
+    <Compile Include="OrderItemDal.cs" />
+    <Compile Include="PaymentDal.cs" />
+    <Compile Include="PrizeDal.cs" />
+    <Compile Include="ProductCommentDal.cs" />
+    <Compile Include="ProductCommentImageDal.cs" />
+    <Compile Include="ProductDal.cs" />
+    <Compile Include="ProductImageDal.cs" />
+    <Compile Include="ProductRequestionDal.cs" />
+    <Compile Include="PromotionDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityQuestionDal.cs" />
+    <Compile Include="ShopDal.cs" />
+    <Compile Include="SupplyDal.cs" />
+    <Compile Include="UserDal.cs" />
+    <Compile Include="UserPointActiveDal.cs" />
+    <Compile Include="VerificationDal.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{a2a25e8d-0190-4d66-9796-afc0b360c717}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{DA899FFB-6D82-4368-8957-68BEBBF479C9}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\IDataBase\IDataBase.csproj">
       <Project>{46f7f18d-e2e2-4de7-afa6-ddeb5971b75f}</Project>

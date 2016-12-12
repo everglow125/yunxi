@@ -1,4 +1,4 @@
-﻿using Entity.LogicModel;
+using Entity.LogicModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;

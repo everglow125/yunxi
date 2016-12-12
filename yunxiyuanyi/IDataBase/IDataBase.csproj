@@ -40,7 +40,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IArticleDal.cs" />
+    <Compile Include="IArticleReplyDal.cs" />
+    <Compile Include="IBaseDal.cs" />
+    <Compile Include="ICategoryDal.cs" />
+    <Compile Include="ICommonAddresDal.cs" />
+    <Compile Include="IComplaintAttachmentDal.cs" />
+    <Compile Include="IComplaintDal.cs" />
+    <Compile Include="ICustomerDal.cs" />
+    <Compile Include="IExpresseDal.cs" />
+    <Compile Include="IFavoriteDal.cs" />
+    <Compile Include="ILotteryActiveDal.cs" />
+    <Compile Include="ILotteryDrawDal.cs" />
+    <Compile Include="IMessageDal.cs" />
+    <Compile Include="IOrderDal.cs" />
+    <Compile Include="IOrderItemDal.cs" />
+    <Compile Include="IPaymentDal.cs" />
+    <Compile Include="IPrizeDal.cs" />
+    <Compile Include="IProductCommentDal.cs" />
+    <Compile Include="IProductCommentImageDal.cs" />
+    <Compile Include="IProductDal.cs" />
+    <Compile Include="IProductImageDal.cs" />
+    <Compile Include="IProductRequestionDal.cs" />
+    <Compile Include="IPromotionDal.cs" />
+    <Compile Include="ISecurityQuestionDal.cs" />
+    <Compile Include="IShopDal.cs" />
+    <Compile Include="ISupplyDal.cs" />
+    <Compile Include="IUserDal.cs" />
+    <Compile Include="IUserPointActiveDal.cs" />
+    <Compile Include="IVerificationDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{da899ffb-6d82-4368-8957-68bebbf479c9}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,16 @@
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\DataBase.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\DataBase.pdb
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Entity.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\IDataBase.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Dapper.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\log4net.dll
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Entity.pdb
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\IDataBase.pdb
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\Dapper.xml
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\log4net.xml
+E:\yunxi\yunxiyuanyi\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+E:\yunxi\yunxiyuanyi\DataBase\obj\Debug\DataBase.dll
+E:\yunxi\yunxiyuanyi\DataBase\obj\Debug\DataBase.pdb
+E:\yunxi\yunxiyuanyi\DataBase\bin\Debug\MySql.Data.dll

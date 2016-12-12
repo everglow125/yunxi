@@ -40,12 +40,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArticleBll.cs" />
+    <Compile Include="ArticleReplyBll.cs" />
+    <Compile Include="CategoryBll.cs" />
+    <Compile Include="CommonAddresBll.cs" />
+    <Compile Include="ComplaintAttachmentBll.cs" />
+    <Compile Include="ComplaintBll.cs" />
+    <Compile Include="CustomerBll.cs" />
+    <Compile Include="ExpresseBll.cs" />
+    <Compile Include="FavoriteBll.cs" />
+    <Compile Include="LotteryActiveBll.cs" />
+    <Compile Include="LotteryDrawBll.cs" />
+    <Compile Include="MessageBll.cs" />
+    <Compile Include="OrderBll.cs" />
+    <Compile Include="OrderItemBll.cs" />
+    <Compile Include="PaymentBll.cs" />
+    <Compile Include="PrizeBll.cs" />
+    <Compile Include="ProductBll.cs" />
+    <Compile Include="ProductCommentBll.cs" />
+    <Compile Include="ProductCommentImageBll.cs" />
+    <Compile Include="ProductImageBll.cs" />
+    <Compile Include="ProductRequestionBll.cs" />
+    <Compile Include="PromotionBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurityQuestionBll.cs" />
+    <Compile Include="ShopBll.cs" />
+    <Compile Include="SupplyBll.cs" />
+    <Compile Include="UserBll.cs" />
+    <Compile Include="UserPointActiveBll.cs" />
+    <Compile Include="VerificationBll.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{a2a25e8d-0190-4d66-9796-afc0b360c717}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{DA899FFB-6D82-4368-8957-68BEBBF479C9}</Project>
+      <Name>Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\IDataBase\IDataBase.csproj">
       <Project>{46f7f18d-e2e2-4de7-afa6-ddeb5971b75f}</Project>

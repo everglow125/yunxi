@@ -1,0 +1,14 @@
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\ILogic.dll
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\ILogic.pdb
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Entity.dll
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Dapper.dll
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\log4net.dll
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Entity.pdb
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\Dapper.xml
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\log4net.xml
+E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.csprojResolveAssemblyReference.cache
+E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.dll
+E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.pdb
+E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\MySql.Data.dll

@@ -8,7 +8,7 @@ namespace Entity.LogicModel
     /// 抽奖活动表
     /// </summary>
     [Serializable]
-    public class LotteryDraw
+    public class LotteryDraw : BaseModel
     {
 
         /// <summary> 
@@ -24,20 +24,6 @@ namespace Entity.LogicModel
         [DisplayName("活动标题")]
         [ColumnMapping(Name = "lottery_title")]
         public string LotteryTitle { get; set; }
-
-        /// <summary> 
-        /// 创建时间 
-        /// </summary> 
-        [DisplayName("创建时间")]
-        [ColumnMapping(Name = "create_time")]
-        public DateTime CreateTime { get; set; }
-
-        /// <summary> 
-        /// 创建人 
-        /// </summary> 
-        [DisplayName("创建人")]
-        [ColumnMapping(Name = "create_by")]
-        public int CreateBy { get; set; }
 
         /// <summary> 
         /// 活动内容 
@@ -70,10 +56,11 @@ namespace Entity.LogicModel
 
         public void TrimColumns()
         {
+
             this.LotteryTitle = (this.LotteryTitle ?? "").Trim();
+
             this.LotteryContent = (this.LotteryContent ?? "").Trim();
 
         }
     }
-
 }

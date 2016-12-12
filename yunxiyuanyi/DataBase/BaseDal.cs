@@ -45,7 +45,7 @@ namespace DataBase
         /// <summary>
         /// 根据条件返回指定页的数据
         /// </summary>
-        public virtual IList<T> GetList(T t, out int recordCount, int? pageIndex = null, int? pageSize = null)
+        public virtual IList<T> GetList(T t, out int recordCount)
         {
             throw new NotImplementedException();
         }

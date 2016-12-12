@@ -1,0 +1,11 @@
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\Dapper.dll
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\log4net.dll
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\Dapper.xml
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\log4net.xml
+E:\yunxi\yunxiyuanyi\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\yunxi\yunxiyuanyi\Common\obj\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\Common\obj\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\Common.dll.config
+E:\yunxi\yunxiyuanyi\Common\bin\Debug\MySql.Data.dll

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -133,13 +134,14 @@ namespace Common
         /// <param name="sql"></param>
         /// <param name="param"></param>
         /// <returns></returns>
-        public static T ExecuteSql_First<T>(string sql, object param)
+        public static TReturn ExecuteSql_First<TReturn, TParam>(string sql, object param)
         {
             try
             {
                 using (var con = GetConnection())
                 {
-                    T result = con.Query<T>(sql, param).FirstOrDefault<T>();
+                    Dapper.SqlMapper.SetTypeMap(typeof(TParam), new Common.ColumnAttributeTypeMapper<TParam>());
+                    TReturn result = con.Query<TReturn>(sql, param).FirstOrDefault<TReturn>();
 
                     return result;
                 }
@@ -148,7 +150,7 @@ namespace Common
             {
                 LogHelper.ErrorLog("ExecuteSql_First出错", ex);
                 LogHelper.ErrorLog(sql, null);
-                return default(T);
+                return default(TReturn);
             }
         }
 
@@ -159,14 +161,67 @@ namespace Common
         /// <param name="sql"></param>
         /// <param name="param"></param>
         /// <returns></returns>
-        public static IList<T> ExecuteSql_ToList<T>(string sql, object param)
+        public static IList<TReturn> ExecuteSql_ToList<TReturn, TParam>(string sql, object param)
         {
             try
             {
                 using (var con = GetConnection())
                 {
-                    IEnumerable<T> result = con.Query<T>(sql, param);
-                    return result.ToList<T>();
+                    Dapper.SqlMapper.SetTypeMap(typeof(TParam), new Common.ColumnAttributeTypeMapper<TParam>());
+                    IEnumerable<TReturn> result = con.Query<TReturn>(sql, param);
+                    return result.ToList<TReturn>();
+                }
+            }
+            catch (Exception ex)
+            {
+                LogHelper.ErrorLog("ExecuteSql_ToList出错", ex);
+                LogHelper.ErrorLog(sql, null);
+                return null;
+            }
+        }
+
+
+        /// <summary>
+        /// 执行SQL，返回第一行第一个元素的值
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="sql"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public static TReturn ExecuteSql_First<TReturn>(string sql, object param)
+        {
+            try
+            {
+                using (var con = GetConnection())
+                {
+                    TReturn result = con.Query<TReturn>(sql, param).FirstOrDefault<TReturn>();
+
+                    return result;
+                }
+            }
+            catch (Exception ex)
+            {
+                LogHelper.ErrorLog("ExecuteSql_First出错", ex);
+                LogHelper.ErrorLog(sql, null);
+                return default(TReturn);
+            }
+        }
+
+        /// <summary>
+        /// 执行SQL，返回数据实体
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="sql"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public static IList<TReturn> ExecuteSql_ToList<TReturn>(string sql, object param)
+        {
+            try
+            {
+                using (var con = GetConnection())
+                {
+                    IEnumerable<TReturn> result = con.Query<TReturn>(sql, param);
+                    return result.ToList<TReturn>();
                 }
             }
             catch (Exception ex)

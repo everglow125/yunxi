@@ -40,7 +40,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IArticleBll.cs" />
+    <Compile Include="IArticleReplyBll.cs" />
+    <Compile Include="IBaseBll.cs" />
+    <Compile Include="ICategoryBll.cs" />
+    <Compile Include="ICommonAddresBll.cs" />
+    <Compile Include="IComplaintAttachmentBll.cs" />
+    <Compile Include="IComplaintBll.cs" />
+    <Compile Include="ICustomerBll.cs" />
+    <Compile Include="IExpresseBll.cs" />
+    <Compile Include="IFavoriteBll.cs" />
+    <Compile Include="ILotteryActiveBll.cs" />
+    <Compile Include="ILotteryDrawBll.cs" />
+    <Compile Include="IMessageBll.cs" />
+    <Compile Include="IOrderBll.cs" />
+    <Compile Include="IOrderItemBll.cs" />
+    <Compile Include="IPaymentBll.cs" />
+    <Compile Include="IPrizeBll.cs" />
+    <Compile Include="IProductBll.cs" />
+    <Compile Include="IProductCommentBll.cs" />
+    <Compile Include="IProductCommentImageBll.cs" />
+    <Compile Include="IProductImageBll.cs" />
+    <Compile Include="IProductRequestionBll.cs" />
+    <Compile Include="IPromotionBll.cs" />
+    <Compile Include="ISecurityQuestionBll.cs" />
+    <Compile Include="IShopBll.cs" />
+    <Compile Include="ISupplyBll.cs" />
+    <Compile Include="IUserBll.cs" />
+    <Compile Include="IUserPointActiveBll.cs" />
+    <Compile Include="IVerificationBll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{DA899FFB-6D82-4368-8957-68BEBBF479C9}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

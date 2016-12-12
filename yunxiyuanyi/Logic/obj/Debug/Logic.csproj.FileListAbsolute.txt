@@ -1,0 +1,17 @@
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Logic.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Logic.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Entity.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\IDataBase.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\ILogic.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Dapper.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\log4net.dll
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Entity.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\IDataBase.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\ILogic.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\Dapper.xml
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\log4net.xml
+E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
+E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.dll
+E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.pdb
