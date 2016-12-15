@@ -35,27 +35,27 @@ namespace DataBase
         public override IList<User> GetAll()
         {
             string sql = "select * from users  ";
-            return MysqlDapper.ExecuteSql_ToList<User,User>(sql, null);
+            return MysqlDapper.ExecuteSql_ToList<User, User>(sql, null);
         }
 
         private string GetWhere(User t)
         {
             StringBuilder sb = new StringBuilder();
 
-			if(t.UserId>-1) sb.Append(" and user_id=@UserId ");
-			if(!string.IsNullOrEmpty(t.LoginName)) sb.Append(" and login_name=@LoginName ");
-			if(!string.IsNullOrEmpty(t.NickName)) sb.Append(" and nick_name=@NickName ");
-			if(!string.IsNullOrEmpty(t.MobieNum)) sb.Append(" and mobie_num=@MobieNum ");
-			if(!string.IsNullOrEmpty(t.LoginPwd)) sb.Append(" and login_pwd=@LoginPwd ");
-			if(!string.IsNullOrEmpty(t.Email)) sb.Append(" and email=@Email ");
-			if(t.UserStatus>-1) sb.Append(" and user_status=@UserStatus ");
-			if(t.UserRole>-1) sb.Append(" and user_role=@UserRole ");
-			if(t.UserPoint>-1) sb.Append(" and user_point=@UserPoint ");
-			if(t.EmpiricalValue>-1) sb.Append(" and empirical_value=@EmpiricalValue ");
-			if(t.UserLevel>-1) sb.Append(" and user_level=@UserLevel ");
-			if(!string.IsNullOrEmpty(t.PhotoUrl)) sb.Append(" and photo_url=@PhotoUrl ");
-			if(t.UserSex>-1) sb.Append(" and user_sex=@UserSex ");
-			if(!string.IsNullOrEmpty(t.UserDescription)) sb.Append(" and user_description=@UserDescription ");
+            if (t.UserId > -1) sb.Append(" and user_id=@UserId ");
+            if (!string.IsNullOrEmpty(t.LoginName)) sb.Append(" and login_name=@LoginName ");
+            if (!string.IsNullOrEmpty(t.NickName)) sb.Append(" and nick_name=@NickName ");
+            if (!string.IsNullOrEmpty(t.MobieNum)) sb.Append(" and mobie_num=@MobieNum ");
+            if (!string.IsNullOrEmpty(t.LoginPwd)) sb.Append(" and login_pwd=@LoginPwd ");
+            if (!string.IsNullOrEmpty(t.Email)) sb.Append(" and email=@Email ");
+            if (t.UserStatus > -1) sb.Append(" and user_status=@UserStatus ");
+            if (t.UserRole > -1) sb.Append(" and user_role=@UserRole ");
+            if (t.UserPoint > -1) sb.Append(" and user_point=@UserPoint ");
+            if (t.EmpiricalValue > -1) sb.Append(" and empirical_value=@EmpiricalValue ");
+            if (t.UserLevel > -1) sb.Append(" and user_level=@UserLevel ");
+            if (!string.IsNullOrEmpty(t.PhotoUrl)) sb.Append(" and photo_url=@PhotoUrl ");
+            if (t.UserSex > -1) sb.Append(" and user_sex=@UserSex ");
+            if (!string.IsNullOrEmpty(t.UserDescription)) sb.Append(" and user_description=@UserDescription ");
             return sb.ToString();
         }
 
@@ -66,7 +66,7 @@ namespace DataBase
         {
             string sql = "select * from users  where 1=1 ";
             string where = GetWhere(t);
-            return MysqlDapper.ExecuteSql_ToList<User,User>(sql + where, t);
+            return MysqlDapper.ExecuteSql_ToList<User, User>(sql + where, t);
         }
 
 
@@ -79,7 +79,7 @@ namespace DataBase
             string where = GetWhere(t);
             string sqlCount = "select count(1) from users  where 1=1 ";
             recordCount = MysqlDapper.ExecuteSP_First<int>(sqlCount + where, t);
-            return MysqlDapper.ExecuteSql_ToList<User,User>(sql + where, t);
+            return MysqlDapper.ExecuteSql_ToList<User, User>(sql + where, t);
         }
 
         /// <summary>
@@ -88,7 +88,7 @@ namespace DataBase
         public override User GetById(long id)
         {
             string sql = "select top 1 * from users  where user_id=@Id ";
-            return MysqlDapper.ExecuteSql_First<User,User>(sql, new { Id = id });
+            return MysqlDapper.ExecuteSql_First<User, User>(sql, new { Id = id });
         }
         /// <summary>
         ///获取插入语句
@@ -163,6 +163,15 @@ namespace DataBase
         {
             string sql = string.Format("delete from users where user_id in ({0})", string.Join(",", ids));
             return MysqlDapper.ExecuteSql(sql, null);
+        }
+
+        /// <summary>
+        /// 查询登录用户
+        /// </summary>
+        public User QueryLoginUser(string loginAccount)
+        {
+            string sql = "select * from users where login_name=@LoginAccount or mobie_num=@AccountEncrypt or email=@AccountEncrypt";
+            return MysqlDapper.ExecuteSql_First<User, User>(sql, new { LoginAccount = loginAccount, AccountEncrypt = loginAccount.To3DES() });
         }
     }
 }

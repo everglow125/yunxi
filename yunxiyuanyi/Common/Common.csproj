@@ -57,6 +57,7 @@
     <Compile Include="DbHelper\MysqlDapper.cs" />
     <Compile Include="DbHelper\DapperHelper.cs" />
     <Compile Include="DbHelper\MsSqlHelper.cs" />
+    <Compile Include="EncryptHelper.cs" />
     <Compile Include="LogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

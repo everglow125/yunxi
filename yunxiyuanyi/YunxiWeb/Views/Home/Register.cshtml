@@ -1,0 +1,41 @@
+﻿@model Entity.LogicModel.User
+@{
+    ViewBag.Title = "Register";
+}
+@using (Html.BeginForm("Register", "Home", FormMethod.Post))
+{
+    <ul>
+        <li>
+            <span>@Html.LabelFor(model => model.LoginName)</span>
+            @Html.TextBoxFor(model => model.LoginName)
+            @Html.ValidationMessageFor(model => model.LoginName)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.NickName)</span>
+            @Html.TextBoxFor(model => model.NickName)
+            @Html.ValidationMessageFor(model => model.NickName)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.MobieNum)</span>
+            @Html.TextBoxFor(model => model.MobieNum)
+            @Html.ValidationMessageFor(model => model.MobieNum)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.LoginPwd)</span>
+            @Html.PasswordFor(model => model.LoginPwd)
+            @Html.ValidationMessageFor(model => model.LoginPwd)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.ConfirmPwd)</span>
+            @Html.PasswordFor(model => model.ConfirmPwd)
+            @Html.ValidationMessageFor(model => model.ConfirmPwd)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.Email)</span>
+            @Html.TextBoxFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </li>
+
+    </ul>
+    <input type="submit" value="提交" />
+}

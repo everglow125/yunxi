@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseTests", "DataBaseTests\DataBaseTests.csproj", "{DCC502DA-D3FC-4918-9658-16E1ADC25095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTests", "CommonTests\CommonTests.csproj", "{F87D2194-75C9-4ECC-8104-7AAD3A19C212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunxiWeb", "YunxiWeb\YunxiWeb.csproj", "{D25B0240-0E0A-4767-ADE9-12AD943A835B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC502DA-D3FC-4918-9658-16E1ADC25095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87D2194-75C9-4ECC-8104-7AAD3A19C212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87D2194-75C9-4ECC-8104-7AAD3A19C212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87D2194-75C9-4ECC-8104-7AAD3A19C212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87D2194-75C9-4ECC-8104-7AAD3A19C212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D25B0240-0E0A-4767-ADE9-12AD943A835B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25B0240-0E0A-4767-ADE9-12AD943A835B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25B0240-0E0A-4767-ADE9-12AD943A835B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25B0240-0E0A-4767-ADE9-12AD943A835B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

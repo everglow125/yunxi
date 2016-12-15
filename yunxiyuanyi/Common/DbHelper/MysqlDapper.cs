@@ -17,7 +17,7 @@ namespace Common
 
         static MysqlDapper()
         {
-            cnnstr = "Data Source=127.0.0.1;User ID=root;Password=123456;CharSet=utf8;port='3306 ';Database='yunxi';";// ConfigurationManager.AppSettings["constr"];
+            cnnstr = ConfigurationManager.ConnectionStrings["mysqlCon"].ConnectionString;
         }
 
         public static MySqlConnection GetConnection()

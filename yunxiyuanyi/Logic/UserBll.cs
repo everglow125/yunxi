@@ -115,6 +115,15 @@ namespace Logic
         {
             return Instance.Delete(ids);
         }
+
+
+        /// <summary>
+        /// 查询登录用户
+        /// </summary>
+        public User QueryLoginUser(string loginAccount)
+        {
+            return Instance.QueryLoginUser(loginAccount);
+        }
     }
 }
 

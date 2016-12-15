@@ -1,0 +1,20 @@
+﻿@model Entity.LogicModel.User
+@{
+    ViewBag.Title = "登录";
+}
+@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+{
+    <ul>
+        <li>
+            <span>@Html.LabelFor(model => model.LoginName)</span>
+            @Html.TextBoxFor(model => model.LoginName)
+            @Html.ValidationMessageFor(model => model.LoginName)
+        </li>
+        <li>
+            <span>@Html.LabelFor(model => model.LoginPwd)</span>
+            @Html.PasswordFor(model => model.LoginPwd)
+            @Html.ValidationMessageFor(model => model.LoginPwd)
+        </li>
+    </ul>
+    <input type="submit" value="提交" />
+}

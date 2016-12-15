@@ -15,3 +15,4 @@ E:\yunxi\yunxiyuanyi\Logic\bin\Debug\log4net.xml
 E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.csprojResolveAssemblyReference.cache
 E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.dll
 E:\yunxi\yunxiyuanyi\Logic\obj\Debug\Logic.pdb
+E:\yunxi\yunxiyuanyi\Logic\bin\Debug\MySql.Data.dll

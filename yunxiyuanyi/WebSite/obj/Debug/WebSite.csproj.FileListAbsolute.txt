@@ -110,3 +110,5 @@ E:\yunxi\yunxiyuanyi\WebSite\obj\Debug\WebSite.csprojResolveAssemblyReference.ca
 E:\yunxi\yunxiyuanyi\WebSite\obj\Debug\WebSite.dll
 E:\yunxi\yunxiyuanyi\WebSite\obj\Debug\WebSite.pdb
 E:\yunxi\yunxiyuanyi\WebSite\bin\MySql.Data.dll
+E:\yunxi\yunxiyuanyi\WebSite\bin\Autofac.dll
+E:\yunxi\yunxiyuanyi\WebSite\bin\Autofac.xml

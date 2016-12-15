@@ -1,0 +1,14 @@
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\CommonTests.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\CommonTests.pdb
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Common.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Dapper.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\MySql.Data.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\log4net.dll
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Common.pdb
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Dapper.xml
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\log4net.xml
+E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.csprojResolveAssemblyReference.cache
+E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.dll
+E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.pdb
