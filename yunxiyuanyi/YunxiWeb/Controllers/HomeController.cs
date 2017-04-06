@@ -51,10 +51,6 @@ namespace YunxiWeb.Controllers
         [HttpPost]
         public ActionResult Register(User model)
         {
-            model.LoginPwd = model.LoginPwd.ToMD5_32();
-            model.CreateTime = DateTime.Now;
-            model.MobieNum = model.MobieNum.To3DES();
-            model.Email = model.Email.To3DES();
             var result = UserSvc.Insert(model);
             return View();
         }

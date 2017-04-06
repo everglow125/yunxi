@@ -12,3 +12,17 @@ E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.csprojResolveAssemblyReference.cach
 E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.dll
 E:\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.pdb
 E:\yunxi\yunxiyuanyi\ILogic\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\ILogic.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\ILogic.pdb
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Entity.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Common.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Dapper.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\log4net.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Entity.pdb
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Common.pdb
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\Dapper.xml
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\bin\Debug\log4net.xml
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.csprojResolveAssemblyReference.cache
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.dll
+E:\gitFile\yunxi\yunxiyuanyi\ILogic\obj\Debug\ILogic.pdb

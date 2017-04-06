@@ -22,6 +22,8 @@ namespace Common
         /// </summary>
         public static string ToMD5_16(this string source, Encoding encoding)
         {
+            if (String.IsNullOrEmpty(source) || source.Trim() == "")
+                return "";
             MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
             string result = BitConverter.ToString(md5.ComputeHash(encoding.GetBytes(source)), 4, 8);
             result = result.Replace("-", "");
@@ -39,6 +41,8 @@ namespace Common
         /// </summary>
         public static string ToMD5_32(this string source, Encoding encoding)
         {
+            if (String.IsNullOrEmpty(source) || source.Trim() == "")
+                return "";
             byte[] result = encoding.GetBytes(source);
             MD5 md5 = new MD5CryptoServiceProvider();
             byte[] output = md5.ComputeHash(result);
@@ -58,6 +62,8 @@ namespace Common
         /// </summary>
         public static string To3DES(this string source, Encoding encoding, string key)
         {
+            if (String.IsNullOrEmpty(source) || source.Trim() == "")
+                return "";
             TripleDESCryptoServiceProvider DES = new TripleDESCryptoServiceProvider();
             DES.Key = encoding.GetBytes(key);
             DES.Mode = CipherMode.ECB;
@@ -79,6 +85,8 @@ namespace Common
         /// </summary>
         public static string Dencrypt3DES(this string source, Encoding encoding, string key)
         {
+            if (String.IsNullOrEmpty(source) || source.Trim() == "")
+                return "";
             TripleDESCryptoServiceProvider DES = new TripleDESCryptoServiceProvider();
             DES.Key = encoding.GetBytes(key);
             DES.Mode = CipherMode.ECB;

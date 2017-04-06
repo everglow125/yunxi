@@ -12,3 +12,17 @@ E:\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.csprojResolveAssemblyReferenc
 E:\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.dll
 E:\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.pdb
 E:\yunxi\yunxiyuanyi\IDataBase\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\IDataBase.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\IDataBase.pdb
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Entity.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Common.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Dapper.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\log4net.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Entity.pdb
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Common.pdb
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\Dapper.xml
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\bin\Debug\log4net.xml
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.csprojResolveAssemblyReference.cache
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.dll
+E:\gitFile\yunxi\yunxiyuanyi\IDataBase\obj\Debug\IDataBase.pdb

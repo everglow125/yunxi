@@ -10,3 +10,15 @@ E:\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cach
 E:\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.dll
 E:\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.pdb
 E:\yunxi\yunxiyuanyi\Entity\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Entity.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Entity.pdb
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Common.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Dapper.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\MySql.Data.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\log4net.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Common.pdb
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\Dapper.xml
+E:\gitFile\yunxi\yunxiyuanyi\Entity\bin\Debug\log4net.xml
+E:\gitFile\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\gitFile\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.dll
+E:\gitFile\yunxi\yunxiyuanyi\Entity\obj\Debug\Entity.pdb

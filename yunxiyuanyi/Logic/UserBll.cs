@@ -1,3 +1,4 @@
+using Common;
 using Entity.LogicModel;
 using IDataBase;
 using ILogic;
@@ -71,6 +72,10 @@ namespace Logic
         /// </summary>
         public int Insert(User t)
         {
+            t.LoginPwd = t.LoginPwd.ToMD5_32();
+            t.CreateTime = DateTime.Now;
+            t.MobieNum = t.MobieNum.To3DES();
+            t.Email = t.Email.To3DES();
             return Instance.Insert(t);
         }
 
