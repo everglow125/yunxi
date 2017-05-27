@@ -18,3 +18,4 @@ E:\yunxi\yunxiyuanyi\DataBaseTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.Qual
 E:\yunxi\yunxiyuanyi\DataBaseTests\obj\Debug\DataBaseTests.csprojResolveAssemblyReference.cache
 E:\yunxi\yunxiyuanyi\DataBaseTests\obj\Debug\DataBaseTests.dll
 E:\yunxi\yunxiyuanyi\DataBaseTests\obj\Debug\DataBaseTests.pdb
+E:\GitFile\yunxi\yunxiyuanyi\DataBaseTests\obj\Debug\DataBaseTests.csprojResolveAssemblyReference.cache

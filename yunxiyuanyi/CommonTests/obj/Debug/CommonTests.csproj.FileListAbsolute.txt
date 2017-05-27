@@ -12,3 +12,15 @@ E:\yunxi\yunxiyuanyi\CommonTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.Qualit
 E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.csprojResolveAssemblyReference.cache
 E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.dll
 E:\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.pdb
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\CommonTests.dll.config
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\CommonTests.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\CommonTests.pdb
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Common.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\MySql.Data.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\log4net.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Memcached.ClientLibrary.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Common.pdb
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\bin\Debug\Memcached.ClientLibrary.pdb
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.csprojResolveAssemblyReference.cache
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.dll
+E:\GitFile\yunxi\yunxiyuanyi\CommonTests\obj\Debug\CommonTests.pdb
